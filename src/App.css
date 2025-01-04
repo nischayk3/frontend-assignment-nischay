@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1270px; /* Increased width by 70px */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  th button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  th button:focus {
+    outline: none;
+  }
+  
+  th .arrow {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  th.sorted-asc .arrow-up {
+    color: yellow;
+  }
+  
+  th.sorted-desc .arrow-down {
+    color: yellow;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  .sort-icon{
+    display: flex; 
+    flex-direction: column;
+  }
+  .pagiantion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
